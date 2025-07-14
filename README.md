@@ -55,7 +55,7 @@ sudo chown root:root /etc/filebrowser.json
 ```
   File will contain:
 ```
-  [Unit]
+[Unit]
 Description=Filebrowser
 After=network-online.target
 
