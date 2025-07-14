@@ -7,9 +7,9 @@ Steps to install Filebrowser linux native
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 filebrowser -r /path/to/your/files  #Change to your root directory here in my case /root
 ```
-
+filebrowser -r /path/to/your/DBfile  #Change to your root directory here in my case /root, and that is the Data Base file
 a password will be generated for admin user - save it 
-
+B
 
 # 2. Setup
 
@@ -36,6 +36,8 @@ sudo chown root:root /etc/filebrowser.env
   "database": "/root/filebrowser.db",
   "root": "/mnt"
 }
+
+"root": "/mnt" - this is the path where your files are saved and this will be visible in Filebrowser
 
 EXECUTE:
 ```
